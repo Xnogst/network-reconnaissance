@@ -28,7 +28,7 @@ Run with Python 3:
 
 
 
-&#x20;   python mini\_scan.py
+&#x20;   python network-reconaissance.py
 
 
 
