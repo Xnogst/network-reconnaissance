@@ -1,9 +1,7 @@
-
 import socket
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-# Common TCP ports and their usual services
 COMMON_PORTS = {
     21: "FTP",
     22: "SSH",
@@ -65,7 +63,7 @@ def main():
         return
 
     try:
-        # Resolve the target to an IPv4 address
+
         target_ip = socket.gethostbyname(target)
     except socket.gaierror:
         print("Could not resolve the target.")
