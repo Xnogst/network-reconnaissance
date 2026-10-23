@@ -90,7 +90,3 @@ Service names are based on conventional port assignments. They do not guarantee 
 Only scan systems you own or have explicit permission to assess.
 
 The permission prompt is a reminder, not a technical authorization check. Always obtain the necessary authorization before scanning another system.
-
-## License
-
-No license has been specified yet.
